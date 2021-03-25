@@ -10,6 +10,10 @@ discord = "^1.0.1"
 flask = "^1.1.2"
 "discord.py" = "^1.6.0"
 discord-cli = "^1.0.0"
+python-dev-tools = "^2020.9.10"
+error-help = "^0.0.3"
+error101 = "^0.0.0"
+error404 = "^1.1.7"
 
 [tool.poetry.dev-dependencies]
 

@@ -1,5 +1,5 @@
 from flask import Flask
-from threading import Thread
+from threading import thread
 
 app = Flask('24/7Tech4Help')
 
@@ -12,7 +12,7 @@ def home():
 def run():
 	app.run(host='1.1.1.1', port=2021)
 
-
 def keep_alive():
-	t = Thread(target=run)
+	t = thread(target=run)
 	t.start()
+ 
